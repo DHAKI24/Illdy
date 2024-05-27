@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"   href="css/structure.css">
+    <link rel="stylesheet" type="text/css" href="css/tab.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,
+100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;
+1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/dbbffdd2ac.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+
+
+<body>
+    <div class="container">
+        <header>
+            <a href="#"><img src="images/logo-1.png" alt=".." class="logo"></a>
+            <div class="beam">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#team">OurTeam</a></li>
+                    <li><a href="#contact">ContactUs</a></li>
+                </ul>
+            </div>
+            
+            <a href="#" onclick=showSidebar() class="menu-btn"><i class="fa-solid fa-bars" style="color: white;"></i></a>
+            <div class="sidebar">
+                <a class="mark" onclick=hideSidebar()><i class="fa-solid fa-xmark" style="color: white;"></i></a>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#team">OurTeam</a></li>
+                    <li><a href="#contact">ContactUs</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="gallery">
+            <div class="glass"></div>
+            <div class="contents">
+                <div class="heading">
+                     <div class="clean">Clean<span>.</span>Slick<span>.</span>Pixel Perfect</div>
+                     <div class="subline">
+                         lldy is a great one-page theme, perfect for developers and 
+                        designers but also for <br>someone who just wants a new website for his business. Try it now!
+                    </div> 
+                    <div class="buttons">
+                        <div class="button1"><a href="#">Learn More</a></div>
+                        <div class="button2"><a href="#">Download</a></div>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+    <div id="about">
+        <div class="section1" id="about">
+            <div class="about">About</div>
+            <div class="below">
+                It is an amazng one-page theme with great features that offers an incredible experience. 
+                It is easy to install, make changes, adapt for your business. A modern design with clean lines 
+                and styling for a wide variety of content, exactly how a business design should be. 
+                You can add as many images as you want to the main header area and turn them into slider.
+            </div>
+            <div class="bar">
+                <div class="slide1">80%<meter min="0" max="100" value="80"></meter>
+                    <div class="typo"><img src="images/icons8-typography-50.png" alt=".." class="letter">Typography</div>
+                </div>
+                <div class="slide2">90%<meter min="0" max="100" value="90"></meter>
+                    <div class="design"><img src="images/icons8-pencil-64.png" alt=".." class="pencil">Design</div> 
+                </div>
+                <div class="slide3">95%<meter min="0" max="100" value="80"></meter>
+                    <div class="code"><img src="images/icons8-laptop-coding-50.png" alt=".." class="laptop">Development</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="section2" id="project">
+            <div class="project">project</div>
+            <div class="singleline">You'll love our work. Check it out!</div>
+            <div class="photos">
+                <a href="#"><img src="images/1.jpg" alt=".." class="no1"></a>
+                <a href="#"><img src="images/2.jpg" alt=".." class="no2"></a>
+                <a href="#"><img src="images/3.jpg" alt=".." class="no3"></a>
+                <a href="#"><img src="images/4.jpg" alt=".." class="no4"></a>
+            </div>
+        </div>
+
+        <div class="section3" id="testimonials">
+            <div class="box">
+                <div class="test">Testimonials</div>
+                <div class="picture">
+                    <img src="images/wick.jpg" alt=".." class="wick">
+                </div>
+                <div class="under">
+                    It is an amazng one-page theme with great features that offers an incredible experience. 
+                    It is easy to install, make changes, adapt for your business. A modern design with clean 
+                    lines and styling for a wide variety of content, exactly how a business design should be. 
+                    You can add as many images as you want to the main header area and turn them into slider.
+                </div>
+                <div class="triangle"></div>
+                <div class="john">John wick</div>
+            </div>
+            <div class="sheet"></div>
+        </div>
+
+        <div class="section4" id="services">
+            <div class="service">Services</div>
+            <div class="belowline">In order to help you grow your business, our carefully selected experts can advise you in in the following areas:</div>
+            <div class="border">
+                <div class="info1">
+                    <div class="part1">
+                        <img src="images/icons8-pencil-64.png" alt=".." class="num1">
+                    </div>
+                    <div class="part2">WEB DESIGN</div>
+                    <div class="part3">Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt tempus. 
+                        Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque commodo...
+                    </div>
+                </div>
+                <div class="info2">
+                    <div class="part11">
+                        <img src="images/icons8-laptop-coding-50.png" alt=".." class="num2">
+                    </div>
+                    <div class="part22">WEB DEVELOPMENT</div>
+                    <div class="part33">Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt tempus. 
+                        Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque commodo...
+                    </div>
+                </div>
+                <div class="info3">
+                    <div class="part111">
+                        <img src="images/icons8-search-64.png" alt=".." class="num3">
+                    </div>
+                    <div class="part222">SEO Analisys</div>
+                    <div class="part333">Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt tempus. 
+                        Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque commodo...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section5" id="blog">
+            <div class="latest">Latest News</div>
+            <div class="underline">
+                If you are interested in the latest articles in the industry, take a sneak peek at our blog. You have nothing to loose!
+            </div>
+            <div class="blog"><a href="#"><img src="/images/icons8-right-button-48.png" alt=".." class="arrow">blog</a></div>
+            <div class="card">
+                <div class="left">
+                    <div class="image1"><img src="/images/1111.jpg" class="forest1"></div>
+                    <div class="head1">
+                        <a href="#">We Have Made Illdy <br>Theme SEO Friendly</a> 
+                    </div>
+                    <div class="tail1">
+                        Illdy One Page WordPress theme is fully SEO friendly and is ready to help you to achieve the highest rankings…
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="image2"><img src="/images/2222.jpg" class="forest2"></div>
+                    <div class="head2">
+                        <a href="#">Stunning One Page<br>WordPress Theme For<br>Masses</a> 
+                    </div>
+                    <div class="tail2">
+                        This theme is not just free, it is free for private and commercial use since it is licensed under GPL…
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="image3"><img src="/images/3333.jpg" class="forest3"></div>
+                    <div class="head3">
+                        <a href="#">Hello world!</a> 
+                    </div>
+                    <div class="tail3">
+                        Welcome to colorlib.com. This is our first post around Illdy WordPress theme. Now show that you can make out of it.…
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section6">
+            <div class="write">
+                <nav>
+                    <ul>
+                        <li><a href="#">PROJECTS</a></li>
+                        <li class="line-line">|</li>
+                        <li><a href="#">CLIENTS</a></li>
+                        <li class="line-line">|</li>
+                        <li><a href="#">COFFEES</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="opaue"></div>
+        </div>
+
+        <div class="section7" id="team">
+            <div class="team">Team</div>
+            <div class="down">Meet the people that are going to take your business to the next level.</div>
+            <div class="label">
+                <div class="idcard1">
+                    <div class="circle1">
+                        <img src="/images/brad.jpg" alt=".." class="brad">
+                    </div>
+                    <div class="rect1">
+                        <div class="name1">Brad Pitt</div>
+                        <div class="role1">web designer</div>
+                        <div class="resp1">Creative, detail-oriented, always focused.</div>
+                        <div class="social1">
+                            <nav>
+                                <ul>
+                                    <li><a href="#"><img src="/images/icons8-facebook-50.png" alt=".." class="facebook1"></a></li>
+                                    <li><a href="#"><img src="/images/icons8-twitter-50.png" alt=".." class="twitter1"></a></li>
+                                    <li><a href="#"><img src="/images/icons8-linked-in-50.png" alt=".." class="linkedin1"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="idcard2">
+                    <div class="circle2">
+                        <img src="/images/downey.jpg" alt=".." class="downey">
+                    </div>
+                    <div class="rect2">
+                        <div class="name2">Rorbert Downey</div>
+                        <div class="role2">SEO Specialist</div>
+                        <div class="resp2">Curious, tech-geeck and gets serious when it comes to work.</div>
+                        <div class="social2">
+                            <nav>
+                                <ul>
+                                    <li><a href="#"><img src="/images/icons8-facebook-50.png" alt=".." class="facebook2"></a></li>
+                                    <li><a href="#"><img src="/images/icons8-twitter-50.png" alt=".." class="twitter2"></a></li>
+                                    <li><a href="#"><img src="/images/icons8-linked-in-50.png" alt=".." class="linkedin2"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="idcard3">
+                    <div class="circle3">
+                        <img src="/images/stallone.jpg" alt=".." class="stallone">
+                    </div>
+                    <div class="rect3">
+                        <div class="name3">Slyvester Stallone</div>
+                        <div class="role3">Developer</div>
+                        <div class="resp3">Enthusiastic, passionate with great sense of humor.</div>
+                        <div class="social3">
+                            <nav>
+                                <ul>
+                                    <li><a href="#"><img src="/images/icons8-facebook-50.png" alt=".." class="facebook3"></a></li>
+                                    <li><a href="#"><img src="/images/icons8-twitter-50.png" alt=".." class="twitter3"></a></li>
+                                    <li><a href="#"><img src="/images/icons8-linked-in-50.png" alt=".." class="linkedin3"></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section8" id="contact">
+            <div class="contact">Contact</div>
+            <div class="details">
+                <div class="add">
+                    <div class="address">Address</div>
+                    <div class="custom">
+                        Street 221B Baker Street,
+                        London, UK
+                    </div>
+                </div>
+                <div class="supp">
+                    <div class="support">Customer support</div>
+                    <div class="mail">
+                        E-mail: <a href ="#">contact@site.com</a>
+                        Phone: (555) 555-5555
+                    </div>
+                </div>
+                <div class="symbol">
+                    <nav>
+                        <ul>
+                            <li><img src="/images/icons8-twitter-50.png" alt=".." class="sym1"></li>
+                            <li><img src="/images/icons8-facebook-50.png" alt=".." class="sym2"></li>
+                            <li><img src="/images/icons8-linked-in-50.png" alt=".." class="sym3"></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="inputs">
+                <div class="input1">
+                    Your Name (required)<br>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="input2">
+                    Your Email (required)<br>
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="input3">
+                    Subject<br>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="large">
+                Message<br>
+                <input type="text">
+                <div class="submit">
+                    <a href="#">Submit</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="before">
+            <div class="new1">
+                <div class="top1">PRODUCTS</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Our work</a></li>
+                        <li><a href="#">Club</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Announcement</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="new2">
+                <div class="top2">INFORMATION</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="new3">
+                <div class="top3">SUPPORT</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Forums</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <footer>
+            Theme: Illdy. © Copyright 2017. All Rights Reserved.
+        </footer>
+    </div>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex';
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none';
+        }
+    </script>
+</body>
+</html>

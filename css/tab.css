@@ -1,0 +1,1149 @@
+@media screen and (min-width:601px) and (max-width:1000px){
+    
+header
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(rgba(26, 7, 7, 0.758), green, blue, alpha);
+    font-family: work sans;
+    float: left;
+}
+
+
+.logo
+{
+    width: 120px;
+    margin: 20px 0 0 60px;
+    float: left;
+}
+
+.beam
+{
+    float: right;
+    text-align: right;
+    margin: 25px 90px 0 0;
+    word-spacing: 8px;
+}
+
+
+
+.beam ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.beam ul li a
+{
+
+    font-size: 14px;   
+    color: white;
+    text-decoration: none;
+}
+
+.beam ul li a:hover
+{
+    color: yellow;
+    transition-duration: 0.5s;
+}
+
+.menu-btn, .sidebar, .fa-bars{
+    display: none;
+}
+
+
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+
+.gallery
+{
+    width: 100%;
+    height: 110vh;
+    font-family: work sans;
+    background-image: url("../images/gallery.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: work sans;
+    text-align: center;
+}
+
+.glass
+{
+    background-color: rgba(0,0,0,0.71);
+	width: 100%;
+	height: 110vh;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.contents
+{
+    position: absolute;
+    top: 250px;
+    left: 55px;
+    height: 400px;
+}
+
+
+.clean
+{
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.clean span
+{
+    font-size: 120px;
+    color: yellow;
+}
+
+.subline
+{
+    font-size: 15px;
+    color: white;
+    margin-top: 50PX;
+}
+
+.buttons
+{
+    width: 50%;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 50px auto;
+
+}
+
+.button1 a
+{
+    width: 30%;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, 0.60);
+    float: left;
+    color: white;
+    margin-left: 10%; 
+    text-decoration: none;
+    border: 1px solid white;
+    
+}
+
+.button2 a
+{
+    width: 30%;
+    padding: 15px;
+    background-color: #F1D204;
+    float: right;
+    color: white;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+.button1 a:hover
+{
+    background-color: rgba(255, 255, 255, 0);
+    transition-duration: 1s;
+    
+
+}
+
+
+.button2 a:hover
+{
+    background-color: #6A4D8A;
+    transition-duration: 1s;
+}
+
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+
+.section1
+{
+    width: 70%;
+    height: 60vh;
+    text-align: center;
+    font-family: work sans;
+    padding: 0 15%;
+}
+
+.about
+{
+    font-size: 40px;
+    color: #545454;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.below
+{
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.bar
+{
+    width: 100%;
+    margin-top: 70px;
+}
+
+meter
+{
+    width: 100%;
+}
+
+.slide1
+{
+    float: left;
+    width: 30%;
+}
+
+.letter
+{
+    width:25px;
+    float: left;
+}
+
+.typo
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F18B6D;
+    margin-top: 10px;
+    float: left;
+}
+
+.slide2
+{ 
+    float:left;
+    width: 30%;
+    margin-left: 5%;
+}
+
+.pencil
+{
+    width:26px;
+    float: left;
+}
+
+.design
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F1D204;
+    margin-top: 10px;
+    float: left;
+}
+
+.slide3
+{
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+}
+
+.laptop
+{
+    width:28px;
+    float: left;
+}
+
+.code
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: #6A4D8A;
+    margin-top: 10px;
+    float: left;
+}
+
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+
+.section2
+
+{
+    width: 100%;
+    height: 67vh;
+    background-color: #F7F7F7;
+    text-align: center;
+    font-family: work sans;
+}
+
+.project
+{
+    font-size: 40px;
+    color: #545454;
+    font-weight: 600;
+    padding-top: 50px;   
+}
+
+.singleline
+{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.photos
+{
+    margin-top: 70px;
+    width: 100%;
+}
+
+.no1, .no2, .no3, .no4
+{
+    width: 25%;
+    height: 40vh;
+    float: left;
+}
+
+.section2 a:hover
+{
+    background-color: white;
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+
+.section3
+{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../images/nature.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: work sans;
+}
+
+.box
+{
+    width: 100%;
+    height: 80vh;
+    float: left;
+}
+
+.test
+{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    padding-top: 60px;
+}
+
+.picture
+{
+    width:160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.wick
+{
+    width:120px;
+    height: 120px;
+    border-radius: 50%;
+    
+}
+
+.under
+{
+    width: 80%;
+    background-color: #6A4D8A;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 15px;
+    padding: 25px;
+    line-height: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+.triangle
+{
+    width: 0px;
+	height: 0px;
+	border-top: 20px solid  #6A4D8A;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    margin: 0 auto;
+}
+
+.john
+{
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+}
+
+.sheet
+{
+    width: 100%;
+    height: 80vh;
+    background-color:  #3b2256a5;
+}
+
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+.section4
+{
+    width: 100%;
+    height: 60vh;
+    font-family: work sans;
+    text-align: center;
+}
+
+.service
+{
+    font-size: 40px;
+    color: #545454;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.belowline
+{
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.border
+{
+    width: 90%;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.info1
+{
+    width: 30%;
+    float: left;
+}
+
+.num1
+{
+    width: 50px;
+}
+
+.part2
+{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #F1D204;
+}
+
+.part3
+{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.info2
+{
+    width: 32%;
+    float: left;
+    margin-left: 4%;
+}
+
+.num2
+{
+    width: 50px;
+}
+
+.part22
+{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #6A4D8A;
+}
+
+.part33
+{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.info3
+{
+    width: 30%;
+    float: left;
+    margin-left: 4%;
+}
+
+.num3
+{
+    width: 50px;
+}
+
+.part222
+{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.part333
+{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+.section5
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #222F36;
+    font-family: work sans;
+    text-align: center;
+}
+
+.latest
+{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.underline
+{
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+.blog a
+{
+    text-decoration: none;
+    background-color: #F1D204;
+    color: white;
+    margin: 40px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.blog a:hover
+{
+    background-color:#6A4D8A;
+    transition-duration: 1s;
+}
+
+.arrow
+{
+    width: 15px;
+    margin-top: 15px;
+}
+
+.card
+{
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.left
+{
+    width: 30%;
+    height: 450px;
+    background-color: white;
+    float: left;
+}
+
+.forest1
+{
+    width: 100%;
+    height: 100%;
+}
+
+.head1
+{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 30px 10px 0 20px;
+}
+
+.head1 a, .head2 a, .head3 a
+{
+    text-decoration: none;
+    
+    color: #000000;
+}
+
+.head1 a:hover, .head2 a:hover, .head3 a:hover
+{
+    color: #F1D204;
+    transition-duration: 0.5s;
+}
+
+.tail1
+{
+   font-size: 15px;
+   margin: 20px 20px 0 20px;
+   line-height: 25px;
+}
+
+
+.middle
+{
+    width: 30%;
+    height: 450px;
+    background-color: white;
+    float: left;
+    margin-left: 5%;
+}
+
+.forest2
+{
+    width: 100%;
+    height: 100%;
+}
+
+.head2
+{
+    font-size: 18px;
+    font-weight: 800;
+    color: #545454;
+    margin: 30px 10px 0 20px;
+   
+}
+
+.tail2
+{
+   font-size: 15px;
+   margin: 20px 20px 0 20px;
+   line-height: 25px;
+}
+
+.right
+{
+    width: 30%;
+    height: 450px;
+    background-color: white;
+    float: left;
+    margin-left: 5%;
+}
+
+.forest3
+{
+    width: 100%;
+    height: 100%;
+}
+
+.head3
+{
+    font-size: 18px;
+    font-weight: 800;
+    color: #545454;
+    margin: 30px 10px 0 20px;
+   
+}
+
+.tail3
+{
+   font-size: 15px;
+   margin: 20px 20px 0 20px;
+   line-height: 25px;
+}
+
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+.section6
+{
+    width: 100%;
+    height: 15vh;
+    background-image: url(/images/pexels-matthew-montrone-1179229.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: work sans;
+}
+
+.write
+{
+    float: left;
+    width: 100%;
+    height: 15vh;
+}
+
+.write nav
+{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.write nav ul
+{
+    word-spacing: 60px;
+    padding-top:  10px;
+}
+
+.write nav ul li
+{
+    display: inline;
+    color: white;
+}
+
+.write nav ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.write nav ul li a:hover
+{
+    color: #6A4D8A;
+    transition-duration: 1s;
+}
+
+.opaue
+{
+    width: 100%;
+    height: 15vh;
+    background-color: #f3f70c9c;
+}
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+.section7
+{
+    width: 100%;
+    height: 60vh;
+    font-family: work sans;
+    text-align: center;
+}
+
+.team
+{
+    font-size: 40px;
+    color: gray;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.down
+{
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.label 
+{
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+    padding: 0 10%;
+}
+
+.idcard1
+{
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+
+.idcard2
+{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-left: 5%;
+}
+
+.idcard3
+{
+    width: 30%;
+    height: 200px;
+    float: left;
+    margin-left: 5%;
+}
+
+.circle1, .circle2, .circle3
+{
+    width: 30%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+    float: left;
+}
+
+.brad, .downey, .stallone
+{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 20%;
+}
+
+.rect1, .rect2, .rect3
+{
+    width: 60%;
+    height: 200px;
+    float: left;
+    text-align: left;
+}
+
+.name1, .name2, .name3
+{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.role1, .role2, .role3
+{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.resp1, .resp2, .resp3
+{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.social1, .social2, .social3
+{
+    width: 100%;
+    height: 20vh;
+}
+
+
+.social1 nav ul, .social2 nav ul, .social3 nav ul
+{
+    word-spacing: 20px;
+    padding: 0;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.social1 nav ul li, .social2 nav ul li, .social3 nav ul li
+{
+    display: inline;
+}
+
+.facebook1, .twitter1, .linkedin1, .facebook2, .twitter2, .linkedin2, .facebook3, .twitter3, .linkedin3
+{
+    width: 20px;
+}
+
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+.section8
+{
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    font-family: work sans;
+}
+
+.contact
+{
+    font-size: 40px;
+    color: gray;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.details
+{
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.add
+{
+    width: 30%;
+    height: 120px;
+    float: left;
+}
+
+.address
+{
+    width: 35%;
+    float: left;
+    padding-top: 20%;
+    font-size: 15px;
+    color: #F1D204;
+}
+
+.custom
+{
+    width: 65%;
+    float: left;
+    padding-top: 20%;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.supp
+{
+    width: 30%;
+    height: 120px;
+    float: left;
+    margin-left: 5%;
+}
+
+.support
+{
+    width: 35%;
+    float: left;
+    padding-top: 20%;
+    font-size: 15px;
+    color: #F1D204;
+}
+
+.mail
+{
+    width: 65%;
+    float: left;
+    padding-top: 20%;
+    font-size: 15px;
+    text-align: left;
+}
+
+.mail a
+{
+    text-decoration: none;
+    color: black;
+} 
+
+.mail a:hover
+{
+    text-decoration: underline;
+}
+
+.symbol
+{
+    width: 20%;
+    height: 120px;
+    float: left;
+    margin-left: 5%;
+}
+
+.symbol nav 
+{
+    word-spacing: 20px;
+    text-align: right;
+    padding-top: 20%;
+}
+
+.symbol nav ul li
+{
+    display: inline;
+}
+
+.sym1, .sym2, .sym3
+{
+    width: 20px;
+}
+
+.inputs
+{
+    width: 80%;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.input1
+{
+    width: 30%;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.input2
+{
+    width: 30%;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: 5%;
+}
+
+.input3
+{
+    width: 30%;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-left: 5%;
+}
+
+.input1 input, .input2 input, .input3 input
+{
+    width: 98%;
+    height: 30px;
+}
+
+.large
+{
+    width: 80%;
+    height: 300px;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.large input
+{
+    width: 99%;
+    height: 100px;
+}
+
+.submit a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background-color: #F1D204;
+    width: 10%;
+    float: right;
+    margin-top: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+
+.before
+{
+    width: 100%;
+    height: 40vh;
+    background-color: #292825;
+    font-family: work sans;
+}
+
+.new1
+{
+    width: 20%;
+    height: 30vh;
+    margin-left: 10%;
+    float: left;
+}
+
+.new2, .new3
+{
+    width: 20%;
+    height: 30vh;
+    float: left;
+}
+
+.top1, .top2, .top3
+{
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.new1 ul li, .new2 ul li, .new3 ul li
+{
+    line-height: 30px;
+    color: white;
+}
+
+.new1  ul li a, .new2  ul li a, .new3  ul li a
+{
+
+    font-size: 18px;   
+    color: white;
+    text-decoration: none;
+}
+
+.new1  ul li a:hover, .new2  ul li a:hover, .new3  ul li a:hover
+{
+    color:#6A4D8A;
+    transition-duration: 0.5s;
+}
+
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+/* end end end*/
+
+footer
+{
+    background-color: #242320;
+    height: 5vh;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: work sans;
+    padding-top: 20px;
+}
+
+}
